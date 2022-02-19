@@ -1,14 +1,13 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './components/home/home.component';
-import { PlateauxComponent } from './components/plateaux/plateaux.component';
 import { RgpdComponent } from './components/rgpd/rgpd.component';
-
+import { PanierComponent } from './components/panier/panier.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
-	{ path: 'plateaux', component: PlateauxComponent },
   { path: 'rgpd', component: RgpdComponent },
+  { path: 'panier', component: PanierComponent},
   
  
 

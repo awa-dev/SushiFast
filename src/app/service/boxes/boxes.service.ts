@@ -29,6 +29,7 @@ export class BoxesService {
     'Content-Type': 'application/json'
     })
   }
+  // interrogation de l'API pour afficher les plateaux
   getBoxes(): Observable<any> {
     return this.http.get<any>(urlrest + '/boxes').pipe(
     catchError(this.handleError)
@@ -41,7 +42,7 @@ export class BoxesService {
   //   )
   // }
       
-  getBoxe(id: string): Observable<any> {
+  getBoxe(id: number): Observable<any> {
     return this.http.get<any>(urlrest + '/boxes' + id).pipe(
     catchError(this.handleError)
     );

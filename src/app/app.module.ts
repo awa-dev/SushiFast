@@ -6,10 +6,10 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { HeaderComponent } from './components/header/header.component';
 import { HttpClientModule } from '@angular/common/http';
-import { PlateauxComponent } from './components/plateaux/plateaux.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { BoxesService } from './service/boxes/boxes.service';
 import { RgpdComponent } from './components/rgpd/rgpd.component';
+import { PanierComponent } from './components/panier/panier.component';
 
 
 
@@ -20,12 +20,10 @@ import { RgpdComponent } from './components/rgpd/rgpd.component';
     AppComponent,
     HomeComponent,
     HeaderComponent,
-    PlateauxComponent,
     FooterComponent,
     RgpdComponent,
-   
-   
-   
+    PanierComponent,
+
   ],
   imports: [
     BrowserModule,
