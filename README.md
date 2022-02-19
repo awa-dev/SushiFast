@@ -211,7 +211,7 @@ Voilà ce que sa donne dans le programme
 
 Dans commande (panier), affiche les plateaux et l'enregistre dans le localStorage. le panier contient les éléments enregistré dans le localStorage. Il affiche aussi le total des commandes
 
-![DIA](./comm.PNG)
+![DIA](./Comm.PNG)
 
 Puis, dès que je clique sur (+), cela me permet d'ajouter le plateau auquel j'ai cliqué dans commande(panier)
 
