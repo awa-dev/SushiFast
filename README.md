@@ -5,6 +5,8 @@ Nom/Prénom: SOW Awa
 Date projet: 15/12/2021
 
 Technologie: NodeJS, MongoDB, Angular
+
+lien github: https://github.com/awa-dev/SushiFast
 ## Le but du Projet
 Ce projet à pour but de développer une appliaction pour une prise de commande au niveau d'un point de vente. Il aura pour résultat essentiel le calcul d'une commande de plateaux de Sushi.
 La commande peut être prise via téléphone ou sur place.
@@ -21,7 +23,7 @@ Puis j’ai installé le framwork bulma et dans angular.json j'ai mis le style.
  "styles": [
 
 
-   
+
               "node_modules/bulma/css/bulma.min.css",
               "src/styles.css"
             ],
